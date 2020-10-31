@@ -1,0 +1,24 @@
+#result{
+    background-color: #ECE7E0;
+    color: #CA7C62;
+}
+#navbaritems a {
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #3E190A;
+    padding-left: 2em;
+}
+
+.nav_div {
+    padding-top: 3vh;
+}
+.giveborder{
+    border: 1px solid #CA7C62;
+    height: 40vh;
+    margin-top: 15vh;
+    border-radius: 50px;
+    margin-bottom: vh;
+}
+.noboreder{
+    margin-top: 15vh;
+}
