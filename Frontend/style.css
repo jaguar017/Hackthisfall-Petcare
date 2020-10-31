@@ -1,0 +1,118 @@
+/* landin page css */
+body{
+    
+}
+#landing_page {
+    background-color: #ECE7E0;
+   
+}
+
+.landing_page_content {
+    margin-top: 11vh;
+    padding-bottom: vh;
+}
+
+.landing_head {
+    text-align: right;
+    font-size: 2.5em;
+    padding-bottom: 2vh;
+    color: #3E190A;
+}
+.landing_headd {
+    text-align: right;
+    font-size: 4em;
+    padding-bottom: 2vh;
+    color: #CA7C62;
+}
+
+
+#navbaritems a {
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #3E190A;
+    padding-left: 2em;
+}
+
+.nav_div {
+    padding-top: 3vh;
+}
+.butonn{
+    margin-left: auto;
+}
+.butonn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.butonn{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 5vh;
+    margin-left: 12vw;
+    color: #3E190A;
+    font-weight: 500;
+    font-size: 1.5em;
+    background-color: #CA7C62;
+}
+.secondpage{
+    margin-bottom: 5vh;
+}
+#aboutus{
+    background-color:  #ECE7E0;
+}
+.aboutuspara{
+    color: #CA7C62;
+    font-size: 1.35em;
+    font-weight: 350;
+    margin-bottom: 7vh;
+}
+.aboutushead{
+    color: #3E190A;
+    margin-bottom: 3vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* landin page css */
+    #landingpage_first {
+        order: 2;
+    }
+    #landingpage_second {
+        order: 4;
+    }
+    .landing_head {
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 2vh;
+    }
+    .landing_headd {
+        text-align: center;
+        
+        padding-bottom: 2vh;
+    }
+    .landing_para {
+        text-align: center;
+        font-size: 1.25em;
+        font-weight: 300;
+        padding-bottom: 5vh;
+    }
+    .landing_page_content {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    .nav_div {
+        padding-top: 1vh;
+    }
+    .arrow_class {
+        padding-bottom: 5vh;
+    }
+    #landing_page {
+        background-image: url("");
+    }
+    .butonn{
+        margin-bottom: 15vh;
+    }
+    .helloji{
+        padding-top:7vh;
+    }
+}

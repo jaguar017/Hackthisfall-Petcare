@@ -1,0 +1,39 @@
+body{
+    overflow-x: hidden;
+}
+#navbaritems a {
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #3E190A;
+    padding-left: 2em;
+}
+
+.nav_div {
+    padding-top: 3vh;
+}
+#upload{
+    background-color: #ECE7E0;;
+}
+.giveborder{
+    border: 1px solid #CA7C62;
+    height: 40vh;
+    margin-top: 15vh;
+    border-radius: 50px;
+    margin-bottom: 10vh;
+}
+.butonn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.butonn{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 5vh;
+    margin-left: 12vw;
+    color: #3E190A;
+    font-weight: 500;
+    font-size: 1.5em;
+    background-color: #CA7C62;
+    margin-bottom: 11vh;
+}
